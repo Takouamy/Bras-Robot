@@ -1,0 +1,2 @@
+Hi, the mg996R_arm_6pad and mg996R_v2(the servo motor and the pad) was not done by me. It was provided on GRABCAD by PENNEL Patrice.
+Thanks.
