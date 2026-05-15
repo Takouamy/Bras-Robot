@@ -12,3 +12,19 @@ Ce projet est divisé en trois sections :
 - la partie mécanique ;
 - la partie programmation ;
 - la partie électronique.
+
+## Évolution du projet
+### Tâches du projet
+- Modélisation 3D de la structure du robot (terminé) ;
+- Tests des parties critiques du modèle (terminé) ;
+- Impression 3D complète du robot (à faire) ;
+- Programmation embarquée et création des différentes fonctions, comme gotoXYZ() (terminé) ;
+- Développement d’une interface de contrôle permettant une interaction homme-machine intuitive (terminé) ;
+- Réalisation du circuit réel et tests (terminé) ;
+- Conception du PCB (en cours) ;
+- Assemblage complet du robot (à faire)
+
+### Taches à faire ou à completer
+- Impression 3D complète du robot ;
+- Conception du PCB ;
+- Assemblage complet du robot.
