@@ -34,7 +34,7 @@ Le mouvement du bras repose sur :
 
 ## Vidéos
 ### Présentation du bras
-<video controls src="Bras_RobotV6_videos/SOLIDWORKS Edition étudiante - Utilisation universitaire uniquement - [Assemblage.SLDASM _] 2026-06-10 19-00-13.mp4" title="Title"></video>
+[▶ Voir la vidéo](Bras_RobotV6_videos/Presentation.mp4)
 
 ### Démonstration des mécanismes
 <video controls src="Bras_RobotV6_videos/mecanismes.mp4" title="Title"></video>
