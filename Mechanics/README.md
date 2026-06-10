@@ -1,30 +1,57 @@
-# Mécanique Bras Robot
-Bras robot à 3 axes, capable de pointer automatiquement vers un point (x,y,z) et comportant un contrôle manuel.
+# Conception mécanique du bras robot
 
-## Objectif
-Le but de ce projet est de fournir un bras robot accompagné d’une bibliothèque permettant un contrôle simple et efficace de l’appareil.
-Ainsi, différentes pistes d’évolution pourront être envisagées, telles que :
-- l’implémentation d’une intelligence artificielle capable de contrôler facilement le bras en appelant des fonctions de la bibliothèque, comme gotoXYZ(), qui permet de pointer vers un point (x,y,z) du repère ayant la base du robot comme origine ;
-- l’automatisation de tâches dans des usines dans le cadre de l’Industrie 4.0
+## Présentation
+Ce dossier contient l'ensemble de la conception mécanique du bras robot réalisée sous SolidWorks.
 
-## Structure
-Ce projet est divisé en trois sections :
-- la partie mécanique ;
-- la partie programmation ;
-- la partie électronique.
+L'objectif est de développer un bras robotique éducatif et expérimental permettant l'étude :
 
-## Évolution du projet
-### Tâches du projet
-- Modélisation 3D de la structure du robot (terminé) ;
-- Tests des parties critiques du modèle (terminé) ;
-- Impression 3D complète du robot (à faire) ;
-- Programmation embarquée et création des différentes fonctions, comme gotoXYZ() (terminé) ;
-- Développement d’une interface de contrôle permettant une interaction homme-machine intuitive (terminé) ;
-- Réalisation du circuit réel et tests (terminé) ;
-- Conception du PCB (en cours) ;
-- Assemblage complet du robot (à faire)
+- de la cinématique des manipulateurs
+- de la mécatronique
+- du contrôle de mouvement
+- de l'intégration électronique
 
-### Taches à faire ou à completer
-- Impression 3D complète du robot ;
-- Conception du PCB ;
-- Assemblage complet du robot.
+---
+## Aperçu général
+![alt text](Bras_RobotV6_images/BrasRobotV6_image2.png)
+
+---
+
+## Architecture
+Le bras est composé de :
+
+1. Base rotative
+2. Épaule
+3. Coude
+
+Nombre de degrés de liberté : **3 DOF**
+
+## Cinématique
+Le mouvement du bras repose sur :
+
+- rotation de la base
+- articulation de l'épaule
+- articulation du coude
+
+## Vidéos
+### Présentation du bras
+<video controls src="Bras_RobotV6_videos/SOLIDWORKS Edition étudiante - Utilisation universitaire uniquement - [Assemblage.SLDASM _] 2026-06-10 19-00-13.mp4" title="Title"></video>
+
+### Démonstration des mécanismes
+<video controls src="Bras_RobotV6_videos/mecanismes.mp4" title="Title"></video>
+
+
+## Fabrication
+Prévu pour :
+
+- impression 3D PLA
+- assemblage par visserie métrique
+- intégration de servomoteurs
+
+---
+## État d'avancement
+- [x] Modélisation SolidWorks
+- [x] Assemblage complet
+- [x] Validation cinématique
+- [ ] Impression 3D
+- [ ] Assemblage physique
+- [ ] Tests de mouvement
