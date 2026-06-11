@@ -34,20 +34,18 @@ Le mouvement du bras repose sur :
 
 ## Vidéos
 ### Présentation du bras
-[▶ Voir la vidéo](Bras_RobotV6_videos/Presentation.mp4)
+![Mécanismes](Bras_RobotV6_videos/PresentationGif.gif)
 
 ### Démonstration des mécanismes
-<video controls src="Bras_RobotV6_videos/mecanismes.mp4" title="Title"></video>
-
+![Mécanismes](Bras_RobotV6_videos/MecanismeGifs.gif)
 
 ## Fabrication
 Prévu pour :
 
-- impression 3D PLA
-- assemblage par visserie métrique
+- impression 3D
+- assemblage du robot physique
 - intégration de servomoteurs
 
----
 ## État d'avancement
 - [x] Modélisation SolidWorks
 - [x] Assemblage complet
